@@ -40,7 +40,12 @@ Run Docker container:
 ```
 docker run -it -v "$PWD":/workspace --network host --ipc=host --name pose_estimation_demo pose_estimation bash
 ```
-
+In docker container install mmpose from source:
+```
+cd mmpose
+pip install -r requirements.txt
+pip install -v -e .
+```
 ## 2. Config model: <a name="config-model"></a>
 You can change model config in configs/config.yaml file. 
 
