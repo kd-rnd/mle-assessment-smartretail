@@ -1,0 +1,8 @@
+python-multipart
+fastapi
+uvicorn
+streamlit
+cython
+xtcocotools
+openmim
+json_tricks
